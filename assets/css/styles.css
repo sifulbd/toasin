@@ -2173,4 +2173,44 @@ p {
 .ts-term-content ul li {
   margin-bottom: 30px;
 }
+
+.sub-page-content {
+  padding-top: 120px;
+}
+
+.form-inside {
+  background-color: white;
+  padding: 30px 30px;
+  text-align: left;
+}
+
+.form-inside h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-inside .form-control {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.form-inside label {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.form-inside .btn:hover {
+  color: #fff;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1276,3 +1276,41 @@ p {
         }
     }
 }
+.sub-page-content {
+    padding-top: 120px;;
+}
+
+.form-inside {
+    background-color: white;
+    padding: 30px 30px;
+    text-align: left;
+
+    h4 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    label {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .btn {
+        &:hover {
+            color: $white;
+        }
+    }
+}
+.btn.disabled, .btn:disabled {
+    opacity: 1;
+}
